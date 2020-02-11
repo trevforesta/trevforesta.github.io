@@ -1,5 +1,5 @@
-![Image](/images/portfolio.png)
-Welcome to my portfolio. Below you can find navigation to my projects list.
+![Image](/images/projects.png)
+Below is a list of my projects and their respective repositories, sorted by category.
 ---
 
 ## Machine Learning Projects
