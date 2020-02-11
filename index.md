@@ -1,5 +1,5 @@
-![Image](/images/portfolio.png)
-Welcome to my portfolio. Below you can find navigation to my projects list.
+![Image](/images/title.png)
+Welcome to my portfolio website. Here you can find my resume, projects I've worked on, and more about me. Below is a navigation to my projects list.
 ---
 
 ## Machine Learning Projects
