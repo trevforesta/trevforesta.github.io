@@ -1,8 +1,9 @@
 ![Image](/images/projects.png)
-Below is a list of my projects and their respective repositories, sorted by category.
+Below is are all of my projects and repositories if needed, sorted by category. 
 ---
 
 ## Machine Learning Projects
+---
 
 ### Something using TensorFlow Object Detection API
 [TensorFlow Object Detection](/sample_page)
