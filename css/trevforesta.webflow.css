@@ -317,7 +317,7 @@ figcaption {
 
 .button {
   padding: 12px 25px;
-  border-radius: 0px;
+  border-radius: 6px;
   background-color: #5167c0;
   -webkit-transition: background-color 400ms ease, opacity 400ms ease, color 400ms ease;
   transition: background-color 400ms ease, opacity 400ms ease, color 400ms ease;
@@ -1214,6 +1214,7 @@ figcaption {
   -webkit-flex-wrap: nowrap;
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
+  border-radius: 7px;
   background-color: #5167c0;
   -webkit-transition: all 200ms ease, opacity 200ms ease;
   transition: all 200ms ease, opacity 200ms ease;
@@ -1227,6 +1228,7 @@ figcaption {
 .nav-button.w--current {
   padding-right: 10px;
   padding-left: 10px;
+  border-radius: 6px;
 }
 
 .div-block {
@@ -1283,7 +1285,7 @@ figcaption {
   margin-right: auto;
   margin-bottom: 0px;
   margin-left: auto;
-  padding: 0px;
+  padding: 20px 10px 10px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
@@ -1576,7 +1578,7 @@ figcaption {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 100vh;
+  height: auto;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -1623,6 +1625,7 @@ figcaption {
   display: flex;
   margin-top: 0px;
   margin-bottom: 0px;
+  padding-top: 20px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -1665,7 +1668,8 @@ figcaption {
 }
 
 .section-6 {
-  padding-top: 10px;
+  margin-top: 40px;
+  padding-top: 0px;
 }
 
 .section-2-copy {
@@ -1888,11 +1892,13 @@ figcaption {
   display: -ms-flexbox;
   display: flex;
   width: 250px;
+  margin-top: 10px;
   padding: 5px 10px;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  border-radius: 6px;
   background-color: #5167c0;
   color: #fff;
   text-decoration: none;
@@ -1916,6 +1922,25 @@ figcaption {
   margin-top: 5px;
   margin-bottom: 5px;
   line-height: 20px;
+}
+
+@media screen and (min-width: 1440px) {
+  .container-3 {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .section-5 {
+    height: auto;
+  }
+
+  .heading-5 {
+    margin-top: auto;
+  }
+
+  .section-6 {
+    margin-top: 20px;
+  }
 }
 
 @media screen and (min-width: 1920px) {
@@ -1956,12 +1981,26 @@ figcaption {
     background-color: #3b4b8f;
   }
 
+  .container-3 {
+    padding-top: 20px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
   .skillset-wrap-2 {
-    margin-top: 10px;
+    margin-top: 20px;
   }
 
   .body {
     margin-left: 400px;
+  }
+
+  .section-5 {
+    height: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 
   .column {
@@ -2027,9 +2066,10 @@ figcaption {
     display: -ms-flexbox;
     display: flex;
     width: 255px;
-    -webkit-justify-content: space-around;
-    -ms-flex-pack: distribute;
-    justify-content: space-around;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-flex-wrap: nowrap;
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
@@ -2038,6 +2078,7 @@ figcaption {
     -ms-flex-align: center;
     align-items: center;
     background-color: #5167c0;
+    text-align: left;
   }
 
   .link-block:hover {
@@ -2715,7 +2756,7 @@ figcaption {
   }
 
   .section.cc-contact {
-    margin-top: 20px;
+    margin-top: 10px;
     margin-right: auto;
     margin-left: auto;
   }
@@ -2971,6 +3012,10 @@ figcaption {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+  }
+
+  .link-block {
+    margin-top: 10px;
   }
 }
 
