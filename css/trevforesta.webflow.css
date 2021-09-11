@@ -666,6 +666,14 @@ figcaption {
   background-position: 50% 0%;
 }
 
+.slide-2.castordigital {
+  background-image: url('../images/prev-MK.jpg');
+}
+
+.slide-2.nft {
+  background-image: url('../images/Tots100.JPG');
+}
+
 .slide-3 {
   background-image: url('../images/EEG3-min.jpg');
   background-position: 0px 0px;
@@ -676,6 +684,15 @@ figcaption {
   background-image: url('../images/TRIC3.jpg');
 }
 
+.slide-3.castordigital {
+  background-color: #000;
+  background-image: url('../images/prev-BD.JPG');
+  background-position: 50% 50%;
+  background-size: 400px;
+  background-repeat: repeat-x;
+  background-attachment: scroll;
+}
+
 .slide-4 {
   background-image: url('../images/EEG3.jpg');
   background-position: 0px 0px;
@@ -684,6 +701,15 @@ figcaption {
 
 .slide-4.tric {
   background-image: url('../images/TRIC4.jpg');
+}
+
+.slide-4.castordigital {
+  background-color: #070b52;
+  background-image: url('../images/prev-CO.jpg');
+  background-position: 50% 50%;
+  background-size: 400px;
+  background-repeat: repeat-x;
+  background-attachment: scroll;
 }
 
 .slide-nav {
@@ -840,7 +866,7 @@ figcaption {
 }
 
 .section-7 {
-  padding: 8%;
+  padding: 10% 8% 8%;
   color: #c1cfe7;
 }
 
